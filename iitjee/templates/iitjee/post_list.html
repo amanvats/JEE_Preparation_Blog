@@ -1,0 +1,15 @@
+<html>
+<html>
+  <head><title>Aman Vats Blog</title></head>
+  <body>
+    <h2 color="Blue"><strong>Aman Vats Blog For JEE Aspirant</strong></h2>
+
+{% for post in posts %}
+  <div>
+      <p>published: {{ post.published_date }}</p>
+      <h1><a href="">{{ post.title }}</a></h1>
+      <p>{{ post.text|linebreaksbr }}</p>
+  </div>
+{% endfor %}
+  </body>
+</html>
