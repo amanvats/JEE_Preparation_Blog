@@ -1,11 +1,11 @@
 .page-header {
-    background-color: #ff9400;
+    background-color:#223A5E;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #F3D6E4;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+    color: #AD5D5D;
 }
 
 .save {
@@ -56,5 +56,5 @@ h1, h2, h3, h4 {
   margin-left: 30em;
 }
 body{
-  background-color: rgb(232, 239, 252);
+  background-color: #91A8D0;
 }
