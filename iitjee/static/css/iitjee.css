@@ -56,5 +56,8 @@ h1, h2, h3, h4 {
   margin-left: 30em;
 }
 body{
-  background-color: #91A8D0;
+  background-color: white;
+}
+.comment{
+  margin:20px 0px 20px 20px;
 }
