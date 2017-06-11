@@ -6,7 +6,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 
 def post_list(request):
-    posts = Post.objects.all().order_by('published_date')
+    posts = Post.objects.all().order_by('published_date').reverse()
     return render(request, 'iitjee/post_list.html', {'posts': posts})
 
 def post_detail(request,pk):
